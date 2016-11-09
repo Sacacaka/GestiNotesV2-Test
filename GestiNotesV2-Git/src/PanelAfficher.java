@@ -35,7 +35,6 @@ public class PanelAfficher extends StandardPanel {
         if(!etudiantFound){
             JOptionPane.showMessageDialog(null,"Ce code ne correspond à aucun étudiant enregistré. Veuillez réessayer");
             PrincipaleFrame.retourAuMenu = true;
-            //wowowowowowowow
         }
     }
     
