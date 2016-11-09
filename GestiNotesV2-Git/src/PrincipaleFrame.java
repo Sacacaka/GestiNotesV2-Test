@@ -53,7 +53,11 @@ public class PrincipaleFrame extends JFrame {
         
         //Labels
         bienvenue.setBounds(150, 100, 280, 30);
-        remplGroupes.setBounds(150, 150, 280, 30); 
+        remplGroupes.setBounds(150, 150, 280, 30);
+        
+        //Logo du programme
+        ImageIcon img = new ImageIcon("logo-crosemont-signature.png");
+        setIconImage(img.getImage());
         
         
         /*option1 = new JButton("Inscrire un étudiant");
